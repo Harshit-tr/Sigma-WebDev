@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .right ul {
+    display: flex;
+    gap: 34px;
+  }
+  
+  .right ul li {
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .right ul li:hover {
+    color: #f4a261;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  ul li:hover {
+    color: #f4a261;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #f4a261;
+  }
+  
+  @media screen and (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+    main {
+      flex-direction: column;
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 600px) {
+    main {
+      flex-direction: row;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    main {
+      flex-direction: row;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    main {
+      flex-direction: row;
+    }
+  }
+  
+  @media screen and (min-width: 1800px) {
+    main {
+      flex-direction: row;
+    }
+  }
+  
+  @media screen and (min-width: 2400px) {
+    main {
+      flex-direction: row;
+    }
+  }
+  
+  @media screen and (min-width: 3200px) {
+    main {
+      flex-direction: row;
+    }
+  }
+  
